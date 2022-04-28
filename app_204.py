@@ -504,7 +504,7 @@ if page == 'Unión de los gráficos':
 
      #6
      fig.add_scatter(name = 'Ariel Ramírez Espinoza', x=["Mapeo-correlaciones estratigráficas y estructurales",	"Análisis de yacimientos fracturados", "Geología estructural y restauración", "Modelo geológico y mapeo de propiedades 3D", "Tectónica salina y arcilla", "Análisis de cuencas y sistemas petroleros", "Análisis de rutas de migración", "Análisis de sellos", "Exploración y análisis de plays", "Reconstrucción estructural-paleogeografía y tectónica", "Principios sísmicos", "Construcción de modelos de velocidad y conversión a profundidad", "Interpretación estructural 2D/3D", "Migración sísmica", "Análisis de fracturas usando datos petrofísicos", "Análisis de riesgo geológico", "Estimación de recursos y reservas", "Geomecánica", "Propiedades geomecánicas de rocas", "Integración de geociencias"], y=[4,3,5,4,4,5,4,4,5,4,3,3,4,2,5,2,2,3,2,4])
-     fig.update_layout(yaxis_title='Nivel de dominio', xaxis_title = 'Competencias', title='Ariel Ramírez Espinoza', autosize=True, height=700, width = 1900, font=dict(family="bold, monospace", size=14, color="black"))
+     fig.update_layout(yaxis_title='Nivel de dominio', xaxis_title = 'Competencias', autosize=True, height=700, width = 1900, font=dict(family="bold, monospace", size=14, color="black"))
      fig.update_yaxes(range = [0,5])
 
      #7
