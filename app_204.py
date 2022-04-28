@@ -31,7 +31,7 @@ page_names = ['Adair Guzmán López', 'Alejandra Aguilar Hernandez', 'Alejandro 
 page = st.radio('Navegación', page_names, index = 0)
 #st.write("**La variable 'page' returns:**", page)
 
-df = pd.read_excel("NDR_PC-1.xlsx")
+df = pd.read_excel("NDR.xlsx")
 st.title("Datos")
 st.write(df)
 #1 vertical menu
