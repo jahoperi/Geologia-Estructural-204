@@ -31,7 +31,7 @@ page_names = ['Adair Guzmán López', 'Alejandra Aguilar Hernandez', 'Alejandro 
 page = st.radio('Navegación', page_names, index = 0)
 #st.write("**La variable 'page' returns:**", page)
 
-data = pd.read_csv("NDR.csv")
+data = pd.read_excel("NDR.csv")
 data = data.set_index('PROFESIONISTAS')
 
 #col1, col2, col3 = st.columns(3)
