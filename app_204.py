@@ -36,7 +36,7 @@ data = data.set_index('PROFESIONISTAS')
 
 #col1, col2, col3 = st.columns(3)
 
-col1, col2 = st.columns([20, 40])
+col1, col2 = st.columns([200, 200])
 
 col1.subheader("DATOS")
 col1.write(data)
