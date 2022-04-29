@@ -36,10 +36,10 @@ data = data.set_index('PROFESIONISTAS')
 
 #col1, col2, col3 = st.columns(3)
 
-col1, col2 = st.columns([500, 500])
+col1, col2 = st.columns([100, 100])
 
 col1.subheader("DATOS")
-col1.write(data)
+col1.head(data)
 
 #selected = option_menu
 #    menu_title = "Geología Estructural", #required
