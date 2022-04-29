@@ -12,7 +12,7 @@ import streamlit.components.v1 as components
 import requests  # pip install requests
 import plotly.express as px
 
-#import pandas as pd
+import pandas as pd
 #import numpy as np
 
 #import plotly.graph_objects as go 
@@ -31,10 +31,15 @@ page_names = ['Adair Guzmán López', 'Alejandra Aguilar Hernandez', 'Alejandro 
 page = st.radio('Navegación', page_names, index = 0)
 #st.write("**La variable 'page' returns:**", page)
 
-#df = pd.read_excel("NDR.xlsx")
-#st.title("Datos")
-#st.write(df)
-#1 vertical menu
+data = pd.read_csv("NDR.csv")
+data = data.set_index('PROFESIONISTAS')
+
+#col1, col2, col3 = st.columns(3)
+
+col1, col2 = st.columns([20, 40])
+
+col1.subheader("DATOS")
+col1.write(data)
 
 #selected = option_menu
 #    menu_title = "Geología Estructural", #required
